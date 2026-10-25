@@ -1,9 +1,9 @@
-package main
+package lucky_number_package
 
 import (
 	"math/rand"
 )
 
-func randomNumber() int {
+func RandomNumber() int {
 	return rand.Intn(100)
 }
